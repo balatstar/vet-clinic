@@ -1,18 +1,8 @@
-# curriculum-databases-projects-template
+<div align="center">
 
-> This template should be used for database related projects at Microverse.
-> Generate your own repository, update this README and edit all files content while working on projects. You should not be adding any new files unless asked otherwise.
+  <h3><b>Vet Clinic Database</b></h3>
 
-
-## Getting Started
-
-This repository includes files with plain SQL that can be used to recreate a database:
-
-- Use [schema.sql](./schema.sql) to create all tables.
-- Use [data.sql](./data.sql) to populate tables with sample data.
-- Check [queries.sql](./queries.sql) for examples of queries that can be run on a newly created database. **Important note: this file might include queries that make changes in the database (e.g., remove records). Use them responsibly!**
-
-<a name="readme-top"></a>
+</div>
 
 # 📗 Table of Contents
 
@@ -20,7 +10,6 @@ This repository includes files with plain SQL that can be used to recreate a dat
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -33,12 +22,11 @@ This repository includes files with plain SQL that can be used to recreate a dat
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ](#faq)
 - [📝 License](#license)
 
 # 📖 [Vet Clinic Database] <a name="about-project"></a>
 
-**[The Vet Clinic Database]** is a record of patient information for a Vet Clinic. It uses a relational database built in PostgreSQL.
+**[Vet Clinic Database]** is a record of patient information for a Vet Clinic. It uses a relational database built in PostgreSQL.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -59,13 +47,6 @@ This repository includes files with plain SQL that can be used to recreate a dat
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-## 🚀 Live Demo <a name="live-demo"></a>
-
-- [TBD](<replace-with-your-deployment-URL>)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 ## 💻 Getting Started <a name="getting-started"></a>
 
 To get a local copy up and running, follow these steps.
@@ -82,8 +63,12 @@ Your preferred code editor
 ### Setup
 
 Clone this repository to your desired folder:
-
 git clone https://github.com/balatstar/vet-clinic
+
+This repository includes files with plain SQL that can be used to recreate a database:
+- Use [schema.sql](./schema.sql) to create all tables.
+- Use [data.sql](./data.sql) to populate tables with sample data.
+- Check [queries.sql](./queries.sql) for examples of queries that can be run on a newly created database. **Important note: this file might include queries that make changes in the database (e.g., remove records). Use them responsibly!**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
