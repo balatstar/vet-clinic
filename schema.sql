@@ -38,3 +38,30 @@ ADD CONSTRAINT fk_owner
     REFERENCES owners(id);
 
 ALTER TABLE animals DROP COLUMN species;
+
+CREATE TABLE vets (
+  id integer GENERATED ALWAYS AS IDENTITY,
+  name varchar(100),
+  age integer,
+  date_of_graduation date,
+  PRIMARY KEY(id)
+);
+
+CREATE TABLE specializations (
+    vet_id INT REFERENCES vets(id),
+    species_id INT REFERENCES species(id),
+    PRIMARY KEY (vet_id, species_id)
+);
+
+CREATE TABLE visits (
+    visit_id SERIAL PRIMARY KEY,
+    animal_id INT REFERENCES animals(id),
+    vet_id INT REFERENCES vets(id),
+    visit_date DATE,
+    CONSTRAINT fk_animal
+        FOREIGN KEY (animal_id)
+        REFERENCES animals(id),
+    CONSTRAINT fk_vet
+        FOREIGN KEY (vet_id)
+        REFERENCES vets(id)
+);
